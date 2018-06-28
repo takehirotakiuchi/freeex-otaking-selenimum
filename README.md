@@ -1,11 +1,11 @@
 # Selenim メルマガ登録 スクリプト
-
 定期購読システム デモサイトのメルマガ登録を自動化するためのスクリプト
-
 
 ## 動作確認環境
 MacOS　64bit
+
 Python 3.6.4
+
 Chrome 最新版
 
 ### 前提条件
@@ -50,10 +50,10 @@ ENABLE_MEMORIZING=true
 jsonファイルの設定
 ```json
 {
-	"date": "2018-07-03 06:00:00",
+  "date": "2018-07-03 06:00:00",
   "is-saved": false,
-	"title": "sample",
-	"body": "body"
+  "title": "sample",
+  "body": "body"
 }
 ```
 is-saveがtrueの時は、読み込まない
